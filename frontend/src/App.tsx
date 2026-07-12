@@ -1,7 +1,7 @@
+import AppRoutes from "./routes";
+
 function App() {
-  return (
-    <h1>CloudIoT</h1>
-  );
+    return <AppRoutes />;
 }
 
 export default App;
