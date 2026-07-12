@@ -1,5 +1,17 @@
+import { Box } from "@mui/material";
+import LoginForm from "../components/auth/LoginForm";
+
 export default function LoginPage() {
     return (
-        <h1>Login Page</h1>
+        <Box
+            sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+            minHeight: "100vh",
+            }}
+        >
+            <LoginForm />
+        </Box>
     );
 }
