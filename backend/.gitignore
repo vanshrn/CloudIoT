@@ -1,0 +1,11 @@
+node_modules/
+dist/
+cdk.out/
+*.d.ts
+*.js.map
+!jest.config.js
+!eslint.config.js
+.env
+coverage/
+*.log
+.DS_Store
