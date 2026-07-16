@@ -1,0 +1,27 @@
+# Dependencies
+**/node_modules/
+
+# Build outputs
+**/dist/
+**/build/
+
+# CDK
+backend/cdk.out/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+frontend/.env
+backend/.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
